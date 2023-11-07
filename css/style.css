@@ -1,0 +1,21 @@
+.rounded {
+    border-radius: 15px; /* Ajuste o valor de border-radius para a curvatura desejada */
+  }
+  
+.bg-personal {
+  background: #36D1DC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+
+/* Adiciona estilo customizado para os ícones de redes sociais */
+.social-icons {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.nav-link-lg {
+  font-size: 1.5rem; /* Ajuste o valor conforme necessário */
+}

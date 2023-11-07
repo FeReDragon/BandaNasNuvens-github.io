@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+<title>Banda Nas Nuvens</title>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/carousel/">
+  <link href="/css//style.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Navegação -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-personal">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="../img/banda nas nuvens - marca NOVA INVERTIDA.png" alt="Ícone" style="height: 80px;">
+        </a>
+        <!-- Botão de alternância atualizado com data-bs-* para Bootstrap 5 -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link nav-link-lg" href="#sobre">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-link-lg" href="#videos">Vídeos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-link-lg" href="#fotos">Fotos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-link-lg" href="#contato">Contato</a>
+                </li>
+            </ul>
+            <ul class="list-inline ml-auto social-icons"> 
+                <li class="list-inline-item"><a href="https://www.facebook.com/shownasnuvens"><i class="fab fa-facebook fa-2x text-light"></i></a></li>
+                <li class="list-inline-item"><a href="https://www.instagram.com/shownasnuvens"><i class="fab fa-instagram fa-2x text-light"></i></a></li>
+                <li class="list-inline-item"><a href="https://www.linkedin.com/in/bandanasnuvens"><i class="fab fa-linkedin fa-2x text-light"></i></a></li>
+                <li class="list-inline-item"><a href="https://api.whatsapp.com/send?phone=61981106869"><i class="fab fa-whatsapp fa-2x text-light"></i></a></li>
+                <li class="list-inline-item"><a href="https://www.youtube.com/@bandanasnuvenscasamentosev5159/videos"><i class="fab fa-youtube fa-2x text-light"></i></a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+  <div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/img/slid1.jpg" class="d-block w-100" width="700" height="500" alt="Primeiro slide">
+        </div>
+      
+        <div class="carousel-item">
+          <img src="/img/slid2.jpg" class="d-block w-100" width="700" height="500" alt="Segundo slide">
+        </div>
+      
+        <div class="carousel-item">
+          <img src="/img/slid3.jpg" class="d-block w-100" width="700" height="500" alt="Terceiro slide">
+        </div>
+    </div>
+      
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <div class="container">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5 ">
+        <!-- Categoria de Shows ao Vivo -->
+        <div class="col d-flex align-items-start">
+            <i class="fa fa-music text-body-secondary flex-shrink-0 me-3" aria-hidden="true"></i>
+            <div>
+                <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Shows ao Vivo</h3>
+                <p>Experiência vibrante de música ao vivo, trazendo o melhor repertório para cada ocasião.</p>
+            </div>
+        </div>
+        <!-- Categoria de Eventos Corporativos -->
+        <div class="col d-flex align-items-start">
+            <i class="fa fa-briefcase text-body-secondary flex-shrink-0 me-3" aria-hidden="true"></i>
+            <div>
+                <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Eventos Corporativos</h3>
+                <p>Profissionalismo e excelência em entretenimento para eventos empresariais e reuniões.</p>
+            </div>
+        </div>
+        <!-- Categoria de Casamentos -->
+        <div class="col d-flex align-items-start">
+            <i class="fa fa-heart text-body-secondary flex-shrink-0 me-3" aria-hidden="true"></i>
+            <div>
+                <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Casamentos</h3>
+                <p>Criamos a trilha sonora perfeita para tornar seu dia especial inesquecível.</p>
+            </div>
+        </div>
+        <!-- Categoria de Festas Privadas -->
+        <div class="col d-flex align-items-start">
+            <i class="fa fa-glass-cheers text-body-secondary flex-shrink-0 me-3" aria-hidden="true"></i>
+            <div>
+                <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Festas Privadas</h3>
+                <p>Animação garantida com música de qualidade para festas e celebrações exclusivas.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+  <section id="sobre" class="my-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h2 class="text-center">Sobre a Banda</h2>
+          <p class="lead">
+            André Migotto, vocalista e proprietário da Banda Nas Nuvens está no mercado de eventos desde 1999, já realizou centenas de shows em 11 cidades brasileiras como: Porto Alegre, São Paulo, Vitória - Vilha Velha, Porto Velho, Palmas, Carajás (Vale do Rio Doce), Brasília, entre outras.
+            Radicada na capital federal há uma década, a Banda Nas Nuvens vem desenvolvendo trabalhos especialmente em casamentos, eventos corporativos e privados, o que lhe confere o amplo domínio na escolha de repertório ( de todas as épocas e estilos e para atender à todas gerações ), montagem da equipe certa e a parceria com excelentes empresas de estruturas de som e iluminação para se adequar perfeitamente às exigências dos contratantes em cada cidade / evento em que a banda se apresenta. 
+            Ao longo dos anos o cantor André Migotto e a Banda Nas Nuvens têm aprendido muito com o dinamismo e a mistura cultural de Brasília que abriga pessoas vindas de todos os estados do Brasil e até de outros países, isso potencializou o repertório, abriu o leque de opções e hoje atendemos à demanda desde show voz e violão até apresentações com 10 músicos no palco para grandes plateias vindas de todos os cantos.
+        </div>
+      </div>
+    </div>
+  </section>
+  
+ <!-- Vídeos -->
+<section id="videos" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Vídeos</h2>
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <iframe class="rounded" src="https://www.youtube.com/embed/fmMDoCLMRU8?si=nWaNMbx16fq1FDJ7" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width:100%; aspect-ratio: 16 / 9;"></iframe>
+        </div>
+        <div class="col-md-4 mb-3">
+          <iframe class="rounded" src="https://www.youtube.com/embed/YQszohb80js?si=PX84yGroyhPIs_WI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width:100%; aspect-ratio: 16 / 9;"></iframe>
+        </div>
+        <div class="col-md-4 mb-3">
+          <iframe class="rounded" src="https://www.youtube.com/embed/e9hSd8wQmAc?si=oFR6RAh3Fgxa8fSK" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width:100%; aspect-ratio: 16 / 9;"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- Galeria de Fotos -->
+    <section id="clientes" class="py-5 bg-personal">
+        <div class="container">
+          <h2 class="text-center mb-4 text-white ">Clientes e Parceiros</h2>
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <img src="/img/Portfólio André Migotto e Banda Nas Nuvens.jpg" class="img-fluid" alt="parceiro">
+            </div>
+            <div class="col-md-6 text-white text-center">
+                <p style="font-size: 1.5rem; text-align: justify;">
+                    "A Banda Nas Nuvens destaca-se por ter conquistado a confiança de uma clientela diversa e ilustre, apresentando-se em eventos de prestigiadas empresas e organizações globais, como Vale, FIFA e Banco do Brasil. Com experiência em variados eventos, desde corporativos até casamentos, a banda é conhecida por criar ambientes perfeitos com um repertório que agrada a todas as idades. Eles são a escolha preferida não só de grandes corporações, mas também de hotéis de luxo e festas privadas, além de terem sido selecionados por governos e ONGs. A Banda Nas Nuvens reflete a rica diversidade cultural do Brasil em suas performances, ansiosa por levar sua música a mais eventos e expandir sua notável lista de clientes"
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+  
+
+  <!-- Galeria de Fotos -->
+
+  <section id="fotos" class="py-5">
+    <div class="container">
+      <h2 class="text-center">Galeria de Fotos</h2>
+      <!-- Utilize um carrossel do Bootstrap ou uma grade de imagens -->
+    </div>
+  </section>
+
+  <div class="album py-5 bg-body-tertiary">
+    <div class="container">
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="/img/_MCD2477.jpg" class="card-img-top" style="width: 100%; height: 225px; object-fit: cover;" alt="Thumbnail">
+            <div class="card-body">
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+           <img src="/img/_MCD4540.jpg" class="card-img-top" style="width: 100%; height: 225px; object-fit: cover;" alt="Thumbnail">
+            <div class="card-body">
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="/img/_MCD4902.jpg" class="card-img-top" style="width: 100%; height: 225px; object-fit: cover;" alt="Thumbnail">
+            <div class="card-body">
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="/img/bandayad.jpg" class="card-img-top" style="width: 100%; height: 225px; object-fit: cover;" alt="Thumbnail">
+            <div class="card-body">
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+           <img src="/img/festa-casamento-min.png" class="card-img-top" style="width: 100%; height: 225px; object-fit: cover;" alt="Thumbnail">
+            <div class="card-body">
+
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+           <img src="/img/Screenshot_20230805_172412_Chrome.jpg" class="card-img-top" style="width: 100%; height: 225px; object-fit: cover;" alt="Thumbnail">
+            <div class="card-body">
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+           <img src="/img/noivapulando.jpg" class="card-img-top" style="width: 100%; height: 225px; object-fit: cover;" alt="Thumbnail">
+            <div class="card-body">
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="/img/nas nuvens show.jpg" class="card-img-top" style="width: 100%; height: 225px; object-fit: cover;" alt="Thumbnail">
+            <div class="card-body">
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="/img/HugoRenault1.jpg" class="card-img-top" style="width: 100%; height: 225px; object-fit: cover;" alt="Thumbnail">
+            <div class="card-body">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer id="contato" class=" mt-5 bg-personal text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 my-3">
+          <h4>Informações de Contato</h4>
+          <p class="mb-2 text-light"><i class="fas fa-map-marker-alt"></i> Endereço: Brasilia/DF</p>
+          <p class="mb-2 text-light"><i class="fas fa-phone"></i> Telefone: +55 (61) 98110-6869</p>
+          <p class="mb-2 text-light"><i class="fas fa-envelope"></i> Email: shownasnuvens@gmail.com</p>
+        </div>
+        
+        <div class="col-md-4 my-3">
+          <h4>Siga-nos nas Redes Sociais</h4>
+          <ul class="list-inline">
+              <li class="list-inline-item"><a href="https://www.facebook.com/shownasnuvens"><i class="fab fa-facebook fa-2x text-light"></i></a></li>
+              <li class="list-inline-item"><a href="https://www.instagram.com/shownasnuvens"><i class="fab fa-instagram fa-2x text-light"></i></a></li>
+              <li class="list-inline-item"><a href="https://www.linkedin.com/in/bandanasnuvens"><i class="fab fa-linkedin fa-2x text-light"></i></a></li>
+              <li class="list-inline-item"><a href="https://api.whatsapp.com/send?phone=61981106869"><i class="fab fa-whatsapp fa-2x text-light"></i></a></li>
+              <li class="list-inline-item"><a href="https://www.youtube.com/@bandanasnuvenscasamentosev5159/videos"><i class="fab fa-youtube fa-2x text-light"></i></a></li>
+          </ul>
+      </div>
+      
+
+        <div class="col-md-4 my-4">
+          <img src="../img//banda nas nuvens - marca NOVA INVERTIDA.png" alt="Ícone" style="height: 100px;">
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://api.whatsapp.com/send?phone=61981106869" target="_blank" style="position: fixed; bottom: 140px; right: 50px; text-decoration: none; text-align: center;">
+    <img src="/img//ws2.png" alt="WhatsApp" style="width: 100px; height: 100px;"> 
+</a>
+
+</body>
+</html>
