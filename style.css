@@ -25,3 +25,7 @@
   text-justify: inter-word;
   
 }
+
+img {
+  object-fit: cover;
+}
