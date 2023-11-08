@@ -19,3 +19,8 @@
 .nav-link-lg {
   font-size: 1.5rem; /* Ajuste o valor conforme necessário */
 }
+
+.text-justify {
+  text-align: justify;
+  text-justify: inter-word;
+}
